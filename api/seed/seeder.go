@@ -10,12 +10,14 @@ import (
 
 var users = []models.User{
 	models.User{
-		UserName: "Gee",
+		UserId: "Gee",
+		UserName: "오지",
 		UserMail: "Gee@gmail.com",
 		Password: "1",
 	},
 	models.User{
-		UserName: "Wonny",
+		UserId: "Wonny",
+		UserName: "오지워니",
 		UserMail: "Wonny@gmail.com",
 		Password: "qwe123qwe123!",
 	},
